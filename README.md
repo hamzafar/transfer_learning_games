@@ -35,6 +35,14 @@ The work follows the research direction proposed in **OpenAI Requests for Resear
 - Adapt the Transformer to learn from Atari gameplay trajectories instead of natural language.
 - Train the model to learn transferable representations across multiple games.
 
+<p align="center">
+  <img src="assets/system_diagram.png" width="850"/>
+</p>
+
+<p align="center">
+  <em><b>Figure 1.</b> End-to-end research pipeline combining Deep Reinforcement Learning for gameplay trajectory generation with a customized Transformer for sequence modeling and transfer learning across Atari games.</em>
+</p>
+
 ---
 
 ## Repository Structure
