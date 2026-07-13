@@ -36,7 +36,7 @@ The work follows the research direction proposed in **OpenAI Requests for Resear
 - Train the model to learn transferable representations across multiple games.
 
 <p align="center">
-  <img src="assets/System_diagram.png" width="850"/>
+  <img src="assets/System_diagram.png" width="640" height ="480"/>
 </p>
 
 <p align="center">
