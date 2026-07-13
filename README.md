@@ -95,18 +95,19 @@ Contains the complete research report including:
 
 The project successfully demonstrates:
 
-- Gameplay trajectory generation using Deep Q-Network agents.
-- Transformer implementation from scratch using TensorFlow.
-- Sequence modeling on Atari gameplay trajectories.
-- Adaptation of Transformer architectures beyond traditional NLP applications.
+- Generation of gameplay trajectories using Deep Q-Network (DQN) agents.
+- Implementation of a customized Transformer architecture from scratch in TensorFlow.
+- Successful sequence modeling of DQN-generated gameplay trajectories.
+- Adaptation of Transformer architectures beyond traditional NLP applications to reinforcement learning data.
+- Stable convergence of the Transformer model on gameplay trajectory datasets with varying trajectory lengths.
+
 <p align="center">
-  <img src="assets/error_curve_step_128_256.png" width="800">
+  <img src="assets/error_curve_step_128_256.png" width="800"/>
 </p>
 
 <p align="center">
-<b>Figure 1.</b> Training loss curves on DQN-generated gameplay trajectories, demonstrating convergence of the customized Transformer implementation for trajectory lengths of 128 and 256 steps.
+  <em><b>Figure 1.</b> Training loss curves on DQN-generated gameplay trajectories, demonstrating stable convergence of the customized Transformer implementation for trajectory lengths of 128 and 256 steps.</em>
 </p>
-  Figure 1. Training loss curves on DQN-generated gameplay trajectory data, demonstrating convergence of the customized Transformer implementation for trajectory lengths of 128 and 256 steps.
 
 ---
 
