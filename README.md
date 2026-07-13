@@ -99,6 +99,14 @@ The project successfully demonstrates:
 - Transformer implementation from scratch using TensorFlow.
 - Sequence modeling on Atari gameplay trajectories.
 - Adaptation of Transformer architectures beyond traditional NLP applications.
+<p align="center">
+  <img src="assets/error_curve_step_128_256.png" width="800">
+</p>
+
+<p align="center">
+<b>Figure 1.</b> Training loss curves on DQN-generated gameplay trajectories, demonstrating convergence of the customized Transformer implementation for trajectory lengths of 128 and 256 steps.
+</p>
+  Figure 1. Training loss curves on DQN-generated gameplay trajectory data, demonstrating convergence of the customized Transformer implementation for trajectory lengths of 128 and 256 steps.
 
 ---
 
